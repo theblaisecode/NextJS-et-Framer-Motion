@@ -12,7 +12,14 @@ function Home() {
           color: "#000",
           y: "140%",
           x: "70%",
-          scale: "1.5",
+          // scale: "1.05",
+        }}
+        transition={{
+          delay: 3,
+          repeat: Infinity,
+          repeatDelay: 0.5,
+          repeatType: "reverse",
+          ease: "easeIn",
         }}>
         This is the Home Page
       </motion.button>
