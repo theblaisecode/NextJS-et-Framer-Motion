@@ -20,6 +20,7 @@ function Home() {
           repeatDelay: 0.5,
           repeatType: "reverse",
           ease: "easeIn",
+          // scaleX: {}
         }}>
         This is the Home Page
       </motion.button>
